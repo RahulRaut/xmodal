@@ -1,0 +1,73 @@
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  height: 50%;
+  margin-right: -50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 4% 6% 4% 6%;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inpDtCn {
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 16px;
+  align-items: center;
+  width: 100%;
+}
+
+.inpBox {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(162, 56, 56);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: "rgba(0, 0, 0, 0.75)";
+}
